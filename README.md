@@ -44,3 +44,8 @@ haproxy -f sample.conf
 #### fetch
 
  * 该逻辑根据配置触发
+
+#### task init
+* 该逻辑在haproxy初始化完成后调用
+* init在主线程里面，不能阻塞
+* task为独立线程，可用于进行心跳相关检测
