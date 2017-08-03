@@ -1,4 +1,4 @@
-# haproxy-for-lua
+# lua for haproxy
 ### 编译
 * 编译Lua5.3以上
 
